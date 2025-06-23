@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":["imagePrepare","isWebpSupported","isWebpConversionSupported"],"sources":["../../src/index.ts"],"sourcesContent":["\nexport { imagePrepare } from \"./prepare\"\nexport { isWebpSupported, isWebpConversionSupported } from \"./webpSupport\"\n"],"mappings":"AACA,SAASA,YAAY,QAAQ,WAAW;AACxC,SAASC,eAAe,EAAEC,yBAAyB,QAAQ,eAAe","ignoreList":[]}
