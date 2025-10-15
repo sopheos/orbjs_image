@@ -1,13 +1,17 @@
 {
   "name": "@sopheos/orbjs_image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Lucas"
   },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sopheos/orbjs_image/issues"
+  },
+  "homepage": "https://github.com/sopheos/orbjs_image#readme",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
-  "sideEffects": false,
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
