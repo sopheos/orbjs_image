@@ -9,6 +9,12 @@ Object.defineProperty(exports, "imagePrepare", {
     return _prepare.imagePrepare;
   }
 });
+Object.defineProperty(exports, "isCanvasSupported", {
+  enumerable: true,
+  get: function get() {
+    return _canvasSupport.isCanvasSupported;
+  }
+});
 Object.defineProperty(exports, "isWebpConversionSupported", {
   enumerable: true,
   get: function get() {
@@ -23,4 +29,5 @@ Object.defineProperty(exports, "isWebpSupported", {
 });
 var _prepare = require("./prepare");
 var _webpSupport = require("./webpSupport");
+var _canvasSupport = require("./canvasSupport");
 //# sourceMappingURL=index.js.map
